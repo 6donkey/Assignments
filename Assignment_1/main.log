@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  30 MAR 2022 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  30 MAR 2022 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -145,8 +145,7 @@ ex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count274
 \l__pdf_internal_box=\box52
-)
-No file main.aux.
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -163,6 +162,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -238,9 +238,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 3062 strings out of 478582
- 46149 string characters out of 2844816
- 344393 words of memory out of 3000000
+ 3064 strings out of 478582
+ 46237 string characters out of 2844816
+ 344384 words of memory out of 3000000
  21241 multiletter control sequences out of 15000+600000
  475128 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
