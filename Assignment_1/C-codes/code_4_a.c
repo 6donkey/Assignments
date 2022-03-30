@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int checK(float K)
+int check(float K)
 {
     float LHS, RHS;
     LHS = (K + 3)/(K + 2);
