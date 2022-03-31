@@ -4,7 +4,7 @@ import numpy as np
 # 100 linearly spaced numbers
 x = np.linspace(-7,7,100)
 
-# the function, which is y = x^2 here
+# the function, which is y = x^2 - 4x - 5 here
 y = x**2 - (4*x) - 5
 
 # setting the axes at the centre
