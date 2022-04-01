@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  31 MAR 2022 11:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  1 APR 2022 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
-File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -122,6 +122,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \c@tracingmulticols=\count274
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 
+142.
+
 \mult@box=\box52
 \multicol@leftmargin=\dimen156
 \c@unbalance=\count275
@@ -187,8 +192,7 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \mult@nat@firstbox=\box95
 \colbreak@box=\box96
 \mc@col@check@num=\count283
-)
-(C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
@@ -214,7 +218,12 @@ ex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count284
 \l__pdf_internal_box=\box97
-) (main.aux)
+)
+
+LaTeX Warning: Unused global option(s):
+    [journal].
+
+(main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -251,16 +260,16 @@ LaTeX Font Info:    ... okay on input line 12.
 * \topmargin=-36.99998pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
+* \marginparwidth=4.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -303,31 +312,37 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
-LaTeX Warning: No \author given.
+ []
 
-[1
+<Figure_1_py.png, id=1, 462.528pt x 346.896pt>
+File: Figure_1_py.png Graphic file (type png)
+<use Figure_1_py.png>
+Package pdftex.def Info: Figure_1_py.png  used on input line 55.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+[1{C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-{C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.aux) ) 
+
+ <./Figure_1_py.png>] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 3212 strings out of 478582
- 48777 string characters out of 2844816
- 353379 words of memory out of 3000000
- 21383 multiletter control sequences out of 15000+600000
- 476673 words of font info for 56 fonts, out of 8000000 for 9000
+ 3225 strings out of 478582
+ 49018 string characters out of 2844816
+ 351478 words of memory out of 3000000
+ 21395 multiletter control sequences out of 15000+600000
+ 477723 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,223b,223s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<
-C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmr17.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (1 page, 70827 bytes).
+ 55i,8n,62p,223b,240s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/Home/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Home/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Home/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Home/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Home/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users
+/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (1 page, 82651 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
