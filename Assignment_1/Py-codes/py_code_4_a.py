@@ -19,6 +19,7 @@ ax.yaxis.set_ticks_position('left')
 
 # plot the function
 plt.plot(x,y, 'r')
+plt.grid()
 
 # show the plot
 plt.show()

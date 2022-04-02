@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  1 APR 2022 12:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  2 APR 2022 20:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -312,37 +312,39 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-<Figure_1_py.png, id=1, 462.528pt x 346.896pt>
-File: Figure_1_py.png Graphic file (type png)
-<use Figure_1_py.png>
-Package pdftex.def Info: Figure_1_py.png  used on input line 58.
-(pdftex.def)             Requested size: 211.81pt x 158.8595pt.
+<InkedFigure_1_py_LI.jpg, id=1, 321.2pt x 240.9pt>
+File: InkedFigure_1_py_LI.jpg Graphic file (type jpg)
+<use InkedFigure_1_py_LI.jpg>
+Package pdftex.def Info: InkedFigure_1_py_LI.jpg  used on input line 64.
+(pdftex.def)             Requested size: 211.81pt x 158.86215pt.
 [1{C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
- <./Figure_1_py.png>] (main.aux) ) 
+ <./InkedFigure_1_py_LI.jpg>] (main.aux) ) 
 Here is how much of TeX's memory you used:
  3225 strings out of 478582
- 49030 string characters out of 2844816
- 351479 words of memory out of 3000000
+ 49094 string characters out of 2844816
+ 352481 words of memory out of 3000000
  21395 multiletter control sequences out of 15000+600000
  477723 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,223b,240s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/Home/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Home/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Home/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Home/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Home/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users
-/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (1 page, 82159 bytes).
+ 55i,9n,62p,223b,266s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/Home/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Home/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Home/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Home
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Use
+rs/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+<C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb>
+Output written on main.pdf (1 page, 110355 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
