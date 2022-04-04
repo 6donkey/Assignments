@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  3 APR 2022 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.30)  4 APR 2022 10:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -312,12 +312,21 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 (C:\Users\Home\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \hbox (badness 2020) in paragraph at lines 18--19
+\OT1/cmr/m/n/12 The fol-low-ing num-bers, $\OML/cmm/m/it/12 K \OT1/cmr/m/n/12 +
+ 3\OML/cmm/m/it/12 ; K \OT1/cmr/m/n/12 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
 <figs/InkedFigure_1_py_LI.jpg, id=1, 321.2pt x 240.9pt>
 File: figs/InkedFigure_1_py_LI.jpg Graphic file (type jpg)
 <use figs/InkedFigure_1_py_LI.jpg>
-Package pdftex.def Info: figs/InkedFigure_1_py_LI.jpg  used on input line 63.
+Package pdftex.def Info: figs/InkedFigure_1_py_LI.jpg  used on input line 61.
 (pdftex.def)             Requested size: 211.81pt x 158.86215pt.
-
 [1{C:/Users/Home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
@@ -325,11 +334,11 @@ Package pdftex.def Info: figs/InkedFigure_1_py_LI.jpg  used on input line 63.
 Here is how much of TeX's memory you used:
  3226 strings out of 478582
  49089 string characters out of 2844816
- 353481 words of memory out of 3000000
+ 352481 words of memory out of 3000000
  21395 multiletter control sequences out of 15000+600000
  477723 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,9n,62p,223b,290s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,9n,62p,223b,266s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/Home/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Home/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Home/A
@@ -339,7 +348,7 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
 .pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmr8.pfb><C:/Users/Home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb>
-Output written on main.pdf (1 page, 123838 bytes).
+Output written on main.pdf (1 page, 123875 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
