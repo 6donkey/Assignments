@@ -1,6 +1,14 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+p = [1, -4, -5]
+# since the equation is K^2 - 4K - 5 = 0.
+
+rts = np.roots(p)
+
+print(rts)
+# The roots would be printed as outputs.
+
 # 100 linearly spaced numbers
 x = np.linspace(-7,7,100)
 
@@ -23,3 +31,4 @@ plt.grid()
 
 # show the plot
 plt.show()
+
