@@ -1,0 +1,56 @@
+\documentclass[journal,12pt,twocolumn]{article}\usepackage[margin=1.25 in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+
+\providecommand{\pr}[1]{\ensuremath{\text{P}\left(#1\right)}}
+
+\addtolength{\topmargin}{-.4 in}
+
+\title{\LARGE{\textbf{Assignment-2}\\(ICSE 12, 2019)}}
+\author{\normalsize J Sai Sri Hari Vamshi\\ \footnotesize AI21BTECH11014}
+\date{}
+
+\begin{document}
+\maketitle
+\begin{center}
+    \textbf{\large Problem 1(x):}
+\end{center}
+\noindent If events $A$ and $B$ are independent such that $\pr{A} = \frac{3}{5}$, $\pr{B} = \frac{2}{3}$, find $\pr{A \cup B}$.
+
+\begin{center}
+    \textbf{\large Solution:}
+\end{center}
+
+\noindent The given input probabilities and desired values are given in the Table 1,
+\begin{center}
+\begin{table}[h!]
+\label{table:table1}
+\input{tables/Table1}
+\caption{}
+\end{table}
+\end{center}
+\noindent It is also given that events $A$ and $B$ are independent which means,
+\begin{align}
+\pr{A \cap B} & = \pr A \cdot \pr B
+\end{align}
+\noindent And from the general probability addition rule for the union of two events, we get,
+\begin{align}
+\pr{A \cup B} & = \pr A + \pr B - \pr{A \cap B}
+\end{align}
+\noindent Using the above two formulas, (1) and (2), we can use the modified probability addition rule for independent sets as,
+\begin{align}
+\pr{A \cup B} & = \pr A + \pr B - \pr A \cdot \pr B
+\end{align}
+\noindent By substituting the respective values in (3), we get,
+\begin{align*}
+\pr{A \cup B} & = \frac{3}{5} + \frac{2}{3} - \frac{3}{5} \cdot \frac{2}{3} \\
+& = \frac{3}{5} + \frac{2}{3} - \frac{2}{5}\\
+& = \frac{13}{15}
+\end{align*}
+\noindent So, the desired probability $\pr{A \cup B}$ is found to be,
+\begin{align*}
+\pr{A \cup B} & = \frac{13}{15}
+\end{align*}
+
+\end{document}
