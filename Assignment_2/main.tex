@@ -34,15 +34,30 @@
 \begin{align}
 \pr{AB} & = \pr A \pr B
 \end{align}
-\noindent And from the general probability addition rule for the union of two events, we get,
+\noindent We know, if events $E_1$ and $E_2$ were disjoint, we get
+\begin{align}
+\pr{E_1 + E_2} & = \pr{E_1} + \pr{E_2}
+\end{align}
+\noindent Now, for events $A$ and $B$,
+\begin{align*}
+A + B & = A + (B - A)
+\end{align*}
+\noindent Here, $A$ and $B - A$ are disjoint. And from equation (2)
+\begin{align*}
+\pr{A + B} & = \pr{A + (B - A)}\\
+& = \pr A + \pr{B - A}\\
+& = \pr A + \pr{B - AB}
+\end{align*}
+\noindent $B$ and $AB$ are also disjoint, so again using (2)
 \begin{align}
 \pr{A + B} & = \pr A + \pr B - \pr{AB}
 \end{align}
-\noindent Using the above two formulas, (1) and (2), we can use the modified probability addition rule for independent sets as,
+\noindent This is the General Probabiity Addition Rule.\\
+\noindent Using the above two formulas, (1) and (3), we can use the modified probability addition rule for independent sets as,
 \begin{align}
 \pr{A + B} & = \pr A + \pr B - \pr A \pr B
 \end{align}
-\noindent By substituting the respective values in (3), we get,
+\noindent By substituting the respective values in (4), we get,
 \begin{align*}
 \pr{A + B} & = \frac{3}{5} + \frac{2}{3} - \frac{3}{5} \cdot \frac{2}{3} \\
 & = \frac{3}{5} + \frac{2}{3} - \frac{2}{5}\\
