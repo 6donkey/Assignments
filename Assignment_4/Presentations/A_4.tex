@@ -1,6 +1,10 @@
 \documentclass{beamer}
+\usepackage{changepage}
+
 
 \providecommand{\x}[1]{\ensuremath{\text{X}\left(#1\right)}}
+\providecommand{\p}[1]{\ensuremath{{P_X}\left(#1\right)}}
+\providecommand{\f}[1]{\ensuremath{{F_X}\left(#1\right)}}
 
 % Theme choice:
 \usetheme{CambridgeUS}
@@ -65,11 +69,42 @@ Thus X is a random variable with values $0,\ 1$ and $2$.
 
 \end{frame}
 
+\begin{frame}{Solution}
+	The PMF is given by,
+	\begin{align*}
+	\p k = 
+		\begin{cases}
+		\frac{4}{9}, & k = 0\\
+		\frac{4}{9}, & k = 1\\
+		\frac{1}{9}, & k = 2\\
+		\end{cases}		
+	\end{align*}
+	The CDF can be obtained from PMF by,
+	\begin{align*}
+	\f k & = \sum_{i = 0}^{i = k}\p i\\
+	\end{align*}
+	The CDF can be obtaines as,
+	\begin{align*}
+	\f k = 
+		\begin{cases}
+			\frac{4}{9}, & k = 0\\
+			\frac{8}{9}, & k = 1\\
+			1, & k = 2\\			
+		\end{cases}
+	\end{align*}
+\end{frame}
+
+\begin{frame}{Solution}
+	The PMF and CDF Graphs are below,
+	\begin{center}
+		\includegraphics[width = 0.8\textwidth]{pfigs/f1.png}
+	\end{center}
+\end{frame}
 
 \begin{frame}
 \centering
 \ \\ \ \\
-\large The End
+\huge The End
 \end{frame}
 
 \end{document}
