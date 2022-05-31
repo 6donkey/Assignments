@@ -1,0 +1,75 @@
+\documentclass{beamer}
+\usepackage{changepage}
+
+
+\providecommand{\x}[1]{\ensuremath{\text{X}\left(#1\right)}}
+\providecommand{\p}[1]{\ensuremath{{P_X}\left(#1\right)}}
+\providecommand{\f}[1]{\ensuremath{{F_X}\left(#1\right)}}
+
+% Theme choice:
+\usetheme{Singapore}
+
+% Title page details: 
+\title{Assignment-5\\(Papoulis Chapter 2 Example 2.2)} 
+\author{J Sai Sri Hari Vamshi\\ AI21BTECH11014}
+\date{\today}
+\logo{\large \LaTeX{}}
+
+
+\begin{document}
+
+% Title page frame
+\begin{frame}
+    \titlepage 
+\end{frame}
+
+% Remove logo from the next slides
+%\logo{}
+
+
+% Outline frame
+\begin{frame}{Contents}
+    \tableofcontents
+\end{frame}
+
+\section{Question}
+\begin{frame}{Question}
+	Suppose a coin is tossed twice and the outcomes are recorded. Then:
+		\begin{enumerate}[(i)]
+		\item What is the sample space of the outcomes obtained?
+		\item What is the set of outcomes with heads at the first toss?
+		\item What is the set of outcomes with only one heads?
+		\item What is the set of outcomes with heads showing atleast once?
+	\end{enumerate}
+\end{frame}
+
+\section{Solution}
+\begin{frame}{Solution}
+When a coin is tossed twice
+	\begin{enumerate}[(i)]
+		\item The sample space contains the elements:
+		\begin{align*}
+			S = \{hh,ht,th,tt\}
+		\end{align*}
+		the set $S$ has $2^4 = 16$ subsets since it has $4$ elements in its sample space.
+		\item The set of outcomes with heads at the first toss:
+		\begin{align*}
+			A = \{heads\ at\ the\ first\ toss\} = \{hh,ht\}
+		\end{align*}
+	\end{enumerate}
+\end{frame}
+\begin{frame}{Solution}
+	\begin{enumerate}
+	\item[(iii)] The set of outcomes with only one heads:
+		\begin{align*}
+			B = \{only\ one\ heads\} = \{ht,th\}
+		\end{align*}
+	\item[(iv)] The set of outcomes with heads showing atleast once:
+		\begin{align*}
+			C = \{heads\ shows\ atleast\ once\} = \{hh,ht,th\}
+		\end{align*}
+	\end{enumerate}
+
+\end{frame}
+
+\end{document}\textsl{•}
