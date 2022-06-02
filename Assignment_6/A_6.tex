@@ -1,0 +1,150 @@
+\documentclass{beamer}
+\usepackage{changepage}
+
+
+\providecommand{\x}[1]{\ensuremath{\text{x}\left(#1\right)}}
+\providecommand{\p}[1]{\ensuremath{{P_X}\left(#1\right)}}
+\providecommand{\f}[1]{\ensuremath{{F_X}\left(#1\right)}}
+
+% Theme choice:
+\usetheme{Singapore}
+
+% Title page details: 
+\title{Assignment-6\\(Papoulis Chapter 4 Example 4.2)} 
+\author{J Sai Sri Hari Vamshi\\ AI21BTECH11014}
+\date{\today}
+\logo{\large \LaTeX{}}
+
+
+\begin{document}
+
+% Title page frame
+\begin{frame}
+    \titlepage 
+\end{frame}
+
+% Remove logo from the next slides
+%\logo{}
+
+
+% Outline frame
+\begin{frame}{Contents}
+    \tableofcontents
+\end{frame}
+
+\section{Question}
+\begin{frame}{Question}
+	In a die roll experiment the six outcomes are denoted as $f_i$ and for each outcome, a random variable is assigned as $\x{f_i} = 10i$.\\ Using these find the set of favourable outcomes for each of the conditions givn below.
+	\begin{enumerate}[(i)]
+	\item $\{x \leq 35\}$
+	\item $\{x \leq 5\}$
+	\item $\{20 \leq x \leq 35\}$
+	\item $\{x = 40\}$
+	\item $\{x = 35\}$
+	\end{enumerate}
+\end{frame}
+
+\section{Solution}
+
+\begin{frame}{Solution}
+Given that the random variables of the outcomes of a die roll experiment are given as $\x{f_i} = 10i$, where $f_i,\ i = 1,2,...6$ are the outcomes.\\ Then for each of the conditions imposed for the random variabes, the favourable outcomes set:
+\end{frame}
+
+\begin{frame}{Solution}
+\begin{enumerate}
+\item[(i)] Given condition,
+\begin{align*}
+\{x \leq 35\}
+\end{align*}
+This can be written as,
+\begin{align*}
+\x{f_i} & \leq 35\\
+10i & \leq 35\\
+i & \leq 3.5\\
+\end{align*}
+Then the outcome set would be,
+\begin{align*}
+A = \{f_1, f_2, f_3\}
+\end{align*}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Solution}
+\begin{enumerate}
+\item[(ii)] Given condition,
+\begin{align*}
+\{x \leq 5\}
+\end{align*}
+This can be written as,
+\begin{align*}
+\x{f_i} & \leq 5\\
+10i & \leq 5\\
+i & \leq 0.5\\
+\end{align*}
+But $i$ can only take the values from $1$ to $6$.
+So the outcome set would be empty.
+\begin{align*}
+B = \phi = \{\} 
+\end{align*}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Solution}
+\begin{enumerate}
+\item[(iii)] Given condition,
+\begin{align*}
+\{20 \leq x \leq 35\}
+\end{align*}
+This can be written as,
+\begin{align*}
+20 \leq \x{f_i} & \leq 35\\
+20 \leq 10i & \leq 35\\
+2 \leq i & \leq 3.5\\
+\end{align*}
+So the outcome set would be,
+\begin{align*}
+C = \{f_2, f_3\} 
+\end{align*}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Solution}
+\begin{enumerate}
+\item[(iv)] Given condition,
+\begin{align*}
+\{x = 40\}
+\end{align*}
+This can be written as,
+\begin{align*}
+\x{f_i} & = 40\\
+10i & = 40\\
+i & = 4\\
+\end{align*}
+So the outcome set would be,
+\begin{align*}
+D = \{f_4\} 
+\end{align*}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Solution}
+\begin{enumerate}
+\item[(v)] Given condition,
+\begin{align*}
+\{x = 5\}
+\end{align*}
+This can be written as,
+\begin{align*}
+\x{f_i} & = 5\\
+10i & = 5\\
+i & = 0.5\\
+\end{align*}
+But $i$ can only take the values from $1$ to $6$.
+So the outcome set would be empty.
+\begin{align*}
+E = \phi = \{\} 
+\end{align*}
+\end{enumerate}
+\end{frame}
+
+\end{document}\textsl{•}
