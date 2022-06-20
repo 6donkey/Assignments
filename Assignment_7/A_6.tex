@@ -1,0 +1,75 @@
+\documentclass{beamer}
+\usepackage{changepage}
+\usepackage{amsmath,amsfonts,mathtools}
+
+
+\providecommand{\x}[1]{\ensuremath{\text{x}\left(#1\right)}}
+\providecommand{\p}[1]{\ensuremath{{P_X}\left(#1\right)}}
+\providecommand{\f}[1]{\ensuremath{{F_X}\left(#1\right)}}
+
+% Theme choice:
+\usetheme{Singapore}
+
+% Title page details: 
+\title{Assignment-7\\(Papoulis Chapter 8 Example 8.27)} 
+\author{J Sai Sri Hari Vamshi\\ AI21BTECH11014}
+\date{\today}
+\logo{\large \LaTeX{}}
+
+
+\begin{document}
+
+% Title page frame
+\begin{frame}
+    \titlepage 
+\end{frame}
+
+% Remove logo from the next slides
+%\logo{}
+
+
+% Outline frame
+\begin{frame}{Contents}
+    \tableofcontents
+\end{frame}
+
+\section{Question}
+\begin{frame}{Question}
+	Suppose that $f(x, \theta) ~ \theta e^{-\theta x} U(x)$. Then test the likelihood ratio hypothesis \\
+	\begin{align*}
+	H_0:0<\theta\leq\theta_0 \ \ against \ \ H_1:\theta>\theta_0
+	\end{align*}
+\end{frame}
+
+\section{Solution}
+
+\begin{frame}{Solution}
+In this problem, $\theta_0$ is the segment $0 < \theta \leq \theta_0 $ of the real line and $\theta$ is the half-line
+    $\theta < 0$. Thus both hypotheses are composite. The likelihood function
+    \begin{align}
+        f(X,\theta) = \theta^n e^{-n\bar{x}\theta} 
+    \end{align}
+    is shown for $\bar{x} > 1/\theta_0$ and $\bar{x} < 1/\theta_0$. In the half-line $\theta_0 > 0$ this function
+    is maximum for $\theta = 1/\bar{x}$. In the interval $0 < \theta \leq \theta_0$ it is maximum for $\theta = 1/\bar{x}$ if
+    $\bar{x}> 1/\theta_0$ and for $\theta = \theta_0$ if $\bar{x} < 1/\theta_0$. Hence
+    \begin{align}
+      \theta_m = \frac{1}{x} ~~~~~ \theta_{m0}= \begin{cases}
+        1/\bar{x} ~~for ~~\bar{x} > 1/\theta_0\\
+        \theta_0 ~~for ~~\bar{x} < 1/\theta_0
+      \end{cases}
+    \end{align}
+\end{frame}
+
+\begin{frame}{Solution}
+    The likelihood ratio equals
+    \begin{align}
+      \lambda = \begin{cases}
+        1 ~~for ~~\bar{x} > 1/\theta_0\\
+        (\bar{x}\theta_0)^ne^{-n\theta_0\bar{x}+n\theta_0}~~for ~~\bar{x} < 1/\theta_0
+      \end{cases}
+    \end{align}
+    We reject $H_o$ if $\lambda < c$ or, equivalently, if $\bar{x} < c_1$, where $c_1$ equals the $\alpha$ percentile of the
+    random variable $\bar{x}$. 
+\end{frame}
+
+\end{document}
